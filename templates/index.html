@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Honeypot - Attack Monitor</title>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <script src="{{ url_for('static', filename='code.js') }}"></script>
+     <link rel="stylesheet" href="{{ url_for('static', filename='misp-modal.css') }}">
+</head>
+<body>
+    <h1>🍯 Honeypot Attack Monitor</h1>
+    <p class="info">Refresh automatico ogni 5 secondi | <span id="count">0</span> attacchi</p>
+    
+
+
+     <button id="btn-open-misp">➕ Crea Evento MISP</button>
+
+<div id="misp-modal">
+    <div class="misp-modal-content">
+        <div class="misp-header">
+            <h2>Crea Evento MISP</h2>
+            <button id="btn-close-misp">✕ Chiudi</button>
+        </div>
+        
+        <div class="misp-grid">
+            <div class="misp-form-panel">
+                <h3>Parametri Evento</h3>
+                
+                <label>
+                    Info (Titolo Evento):
+                    <input id="misp-info" type="text" placeholder="Es: Attacchi XSS da IP malevolo">
+                </label>
+                
+                <label>
+                    Distribution:
+                    <select id="misp-distribution">
+                        <option value="0">Your organisation only</option>
+                        <option value="1">This community only</option>
+                        <option value="2">Connected communities</option>
+                        <option value="3">All communities</option>
+                    </select>
+                </label>
+                
+                <label>
+                    Threat Level:
+                    <select id="misp-threat">
+                        <option value="1">High</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Low</option>
+                        <option value="4">Undefined</option>
+                    </select>
+                </label>
+                
+                <label>
+                    Analysis:
+                    <select id="misp-analysis">
+                        <option value="0">Initial</option>
+                        <option value="1">Ongoing</option>
+                        <option value="2">Completed</option>
+                    </select>
+                </label>
+                
+                <div class="misp-selected-info">
+                    <strong>Attacchi selezionati: <span id="selected-count">0</span></strong>
+                </div>
+                
+                <button id="btn-upload-misp">📤 Carica su MISP</button>
+            </div>
+            
+            <div class="misp-table-panel">
+                <h3>Seleziona Attacchi</h3>
+                <table id="misp-attacks-table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" id="select-all-misp"></th>
+                            <th>ID</th>
+                            <th>IP</th>
+                            <th>Tipo</th>
+                            <th>Payload</th>
+                        </tr>
+                    </thead>
+                    <tbody id="misp-attacks-body">
+                        <tr><td colspan="5" style="text-align: center; padding: 20px;">Caricamento...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 120px;">Timestamp</th>
+                    <th style="width: 95px;">IP Sorgente</th>
+                    <th style="width: 90px;">IP Vittima</th>
+                    <th style="width: 90px;">Tipo</th>
+                    <th style="width: 160px;">User-Agent</th>
+                    <th style="width: 70px;">Method</th>
+                    <th style="width: 200px;">URL Completo</th>
+                    <th style="width: 450px;">Payload</th>
+                    <th style="width: 45px;">Score</th>
+                    <th style="width: 80px;">Azioni</th>
+                </tr>
+            </thead>
+            <tbody id="attacks-body">
+                <tr><td colspan="8" style="text-align:center">Caricamento...</td></tr>
+            </tbody>
+        </table>
+    </div>
+     <script src="{{ url_for('static', filename='misp.js') }}"></script>
+
+</body>
+</html>
