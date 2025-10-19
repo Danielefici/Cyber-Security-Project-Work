@@ -1,0 +1,158 @@
+/* Bottone Crea Evento MISP */
+#btn-open-misp {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 100;
+}
+
+#btn-open-misp:hover {
+    background: #45a049;
+}
+
+/* Modale MISP */
+#misp-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.misp-modal-content {
+    background: #2d2d2d;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1400px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.misp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.misp-header h2 {
+    color: #4CAF50;
+    margin: 0;
+}
+
+#btn-close-misp {
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.misp-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.misp-form-panel {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.misp-form-panel h3 {
+    color: #ff6b6b;
+    margin-top: 0;
+}
+
+.misp-form-panel label {
+    display: block;
+    margin-bottom: 15px;
+    color: #aaa;
+}
+
+.misp-form-panel input,
+.misp-form-panel select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #333;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.misp-selected-info {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    border-radius: 4px;
+    color: #4CAF50;
+}
+
+#btn-upload-misp {
+    width: 100%;
+    margin-top: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn-upload-misp:hover {
+    background: #45a049;
+}
+
+.misp-table-panel {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.misp-table-panel h3 {
+    color: #ff6b6b;
+    margin-top: 0;
+}
+
+#misp-attacks-table {
+    width: 100%;
+    font-size: 11px;
+    border-collapse: collapse;
+}
+
+#misp-attacks-table thead {
+    position: sticky;
+    top: 0;
+    background: #ff6b6b;
+}
+
+#misp-attacks-table th {
+    padding: 8px;
+    text-align: left;
+}
+
+#misp-attacks-table td {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+}
+
+#misp-attacks-table tr:hover {
+    background: #363636;
+}

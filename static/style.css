@@ -1,0 +1,102 @@
+* { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 15px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        h1 {
+            color: #ff6b6b;
+            margin: 0 0 5px 0;
+            font-size: 24px;
+        }
+        .info {
+            color: #888;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .table-container {
+            max-height: calc(100vh - 100px);
+            overflow: auto;
+            border: 1px solid #444;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            min-width: 1500px;
+            border-collapse: collapse;
+            background: #2d2d2d;
+            font-size: 11px;
+        }
+        thead {
+            position: sticky;
+            top: 0;
+            background: #ff6b6b;
+            z-index: 10;
+        }
+        th {
+            padding: 8px 6px;
+            text-align: left;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+        td {
+            padding: 6px;
+            border-bottom: 1px solid #444;
+            vertical-align: top;
+        }
+        tr:hover {
+            background: #363636;
+        }
+        .xss { color: #ffd93d; font-weight: bold; }
+        .sql { color: #6bcf7f; font-weight: bold; }
+        .timestamp { white-space: nowrap; font-size: 10px; }
+        .score-high { color: #ff4444; font-weight: bold; }
+        .score-med { color: #ffaa00; }
+        .score-low { color: #88ff88; }
+        .expandable {
+            cursor: pointer;
+            max-height: 40px;
+            overflow: hidden;
+            transition: max-height 0.2s;
+            word-break: break-word;
+        }
+        .expandable.expanded {
+            max-height: 300px;
+            overflow-y: auto;
+            background: #222;
+            padding: 4px;
+            border-radius: 3px;
+        }
+        .payload-cell {
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+        }
+        .rules-info {
+            font-size: 9px;
+            color: #666;
+            margin-top: 4px;
+            padding-top: 4px;
+            border-top: 1px solid #444;
+        }
+        .btn {
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-right: 4px;
+        }
+        .btn-delete {
+            background: #ff4444;
+            color: #fff;
+        }
+        .btn-delete:hover {
+            background: #cc0000;
+        }
+        .btn-misp {
+            background: #666;
+            color: #aaa;
+            cursor: not-allowed;
+        }
