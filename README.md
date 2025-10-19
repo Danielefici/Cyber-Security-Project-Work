@@ -1,5 +1,5 @@
 # Cyber-Security-Project-Work
-#Integration of ModSecurity Logs with Parsing, Database Storage, and MISP
+# Integration of ModSecurity Logs with Parsing, Database Storage, and MISP
 ## Overview
 This project provides an external integration with **ModSecurity**, designed to:
 
