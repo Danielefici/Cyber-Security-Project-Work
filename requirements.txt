@@ -1,0 +1,6 @@
+python-dateutil
+sqlalchemy
+requests
+pymisp
+flask
+
