@@ -79,3 +79,10 @@ class MISPIntegration:
             'attributes_added': len(added_attrs),
             'attack_ids': added_attrs
         }
+
+
+
+
+
+    
+
