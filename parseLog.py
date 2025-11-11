@@ -37,7 +37,6 @@ def split_modsec_transactions(content):
     return [p.strip("\n") for p in parts if p.strip()]
 
 def extract_payload(text):
-    """Estrae il payload effettivo dell'attacco"""
     payloads = []
     
     for m in re.finditer(r'found within (?:ARGS|ARGS_NAMES)[^:]*:\s*([^"]+?)(?:"|])', text):
