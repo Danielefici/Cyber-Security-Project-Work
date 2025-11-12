@@ -13,4 +13,4 @@ This project provides an external integration with **ModSecurity**, designed to:
 - Automate the analysis and handling of ModSecurity logs.
 - Facilitate the correlation and sharing of security events through MISP.
 - Provide a user-friendly web interface for reviewing and exporting data.
-![logo del progetto](/Cyber-Security-Project-Work/XSS.jpg)
+![logo](/Cyber-Security-Project-Work/XSS.jpg)
