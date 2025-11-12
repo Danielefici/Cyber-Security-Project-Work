@@ -25,7 +25,7 @@ class MISPIntegration:
         event.threat_level_id = event_params['threat_level_id']
         event.analysis = event_params['analysis']
         
-        # Crea evento
+        
         created_event = self.misp.add_event(event)
         event_id = created_event['Event']['id']
         
