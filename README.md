@@ -1,7 +1,6 @@
 # Cyber-Security-Project-Work
 # Integration of ModSecurity Logs with Parsing, Database Storage, and MISP
 ## Overview
-This project provides an external integration with **ModSecurity**, designed to:
 
 This project extends and integrates the functionality of the [JuiceShop-ModSecurity](https://github.com/gorzelvk/JuiceShop-ModSecurity)
  repository by providing an external system that processes and enriches ModSecurity logs.
