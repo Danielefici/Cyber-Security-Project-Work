@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from dateutil import parser as dateparser
 from pathlib import Path
 
-# CONFIG
+
 MODSEC_LOG = "/var/log/modsec_audit.log"
 
 # Mappatura rule IDs -> tipo di attacco
