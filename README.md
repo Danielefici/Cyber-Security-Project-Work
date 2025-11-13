@@ -17,6 +17,9 @@ It is designed to:
 
 - Send Indicators of Compromise (IoCs) to MISP for threat intelligence sharing and enrichment.
 
+![modsecurity-architecture](https://github.com/user-attachments/assets/5dc04f9f-553d-4edf-a53a-bc9d76f8769d)
+
+
 ## Objectives
 
 - Automate the analysis and handling of ModSecurity logs.
