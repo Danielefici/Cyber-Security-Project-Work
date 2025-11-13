@@ -26,3 +26,8 @@ It is designed to:
 - Provide a user-friendly web interface for reviewing, managing, and exporting security data.
 
 - Extend the capabilities of the original JuiceShop-ModSecurity project by adding automated log processing, database integration, and MISP synchronization.
+
+
+
+<img width="1837" height="551" alt="webApp" src="https://github.com/user-attachments/assets/280de9df-11c3-4904-a6b5-83e07395f393" />
+
