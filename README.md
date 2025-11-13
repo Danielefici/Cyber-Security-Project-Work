@@ -56,6 +56,6 @@ This view provides an intuitive way to understand the relationship between the t
 
 
 
-![grafoMisp](https://github.com/user-attachments/assets/1a7885a3-c0f9-46e5-b398-34b122a2b6f5)
-
+<img src="(https://github.com/user-attachments/assets/1a7885a3-c0f9-46e5-b398-34b122a2b6f5"
+ width="500">
 
