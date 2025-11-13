@@ -39,7 +39,12 @@ After the logs are parsed and stored in the database, the collected events are d
 Through the “Crea evento MISP” button, users can open a checkbox panel that enables the selection and upload of IoC records directly to MISP for threat intelligence sharing and enrichment.
 
 
-<img width="1837" height="551" alt="webApp" src="https://github.com/user-attachments/assets/1dcc1daa-ec6f-4af0-98f0-141ced379329" />
+<img src="https://github.com/user-attachments/assets/1dcc1daa-ec6f-4af0-98f0-141ced379329" 
+    alt="webApp"
+    width="1837" 
+    height="551"/>
+ 
+
 
 
 
