@@ -17,6 +17,12 @@ It is designed to:
 
 - Send Indicators of Compromise (IoCs) to MISP for threat intelligence sharing and enrichment.
 
+<img src="https://github.com/user-attachments/assets/5dc04f9f-553d-4edf-a53a-bc9d76f8769d" 
+     alt="modsecurity-architecture" 
+     width="500">
+
+
+
 ## Objectives
 
 - Automate the analysis and handling of ModSecurity logs.
@@ -26,3 +32,16 @@ It is designed to:
 - Provide a user-friendly web interface for reviewing, managing, and exporting security data.
 
 - Extend the capabilities of the original JuiceShop-ModSecurity project by adding automated log processing, database integration, and MISP synchronization.
+
+## How it works
+
+After the logs are parsed and stored in the database, the collected events are displayed through a dedicated web dashboard. The interface allows users to easily explore, search, and analyze ModSecurity alerts in a structured and user-friendly way.
+Through the “Crea evento MISP” button, users can open a checkbox panel that enables the selection and upload of IoC records directly to MISP for threat intelligence sharing and enrichment.
+
+
+<img width="1837" height="551" alt="webApp" src="https://github.com/user-attachments/assets/1dcc1daa-ec6f-4af0-98f0-141ced379329" />
+
+
+
+
+
