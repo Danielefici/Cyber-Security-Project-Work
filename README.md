@@ -3,7 +3,7 @@
 ## Overview
 
 This project extends and integrates the functionality of the [JuiceShop-ModSecurity](https://github.com/gorzelvk/JuiceShop-ModSecurity)
- repository by providing an external system that processes and enriches ModSecurity logs.
+repository by providing an external system that processes and enriches ModSecurity logs.
 
 It is designed to:
 
