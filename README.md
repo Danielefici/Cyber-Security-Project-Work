@@ -48,7 +48,7 @@ Through the “Crea evento MISP” button, users can open a checkbox panel that 
      height="551"/>
 
 
-After using the “Create MISP Event” button in the dashboard, the selected IoCs are uploaded to MISP and automatically organized into a dedicated event.
+After using the “Crea Evento Misp” button in the dashboard, the selected IoCs are uploaded to MISP and automatically organized into a dedicated event.
 The visualization below shows how MISP represents these indicators: the victim’s IP address is placed at the center of a star-shaped graph, surrounded by the various attack types detected by ModSecurity.
 This view provides an intuitive way to understand the relationship between the target and the different threats identified during the analysis.
 
