@@ -29,5 +29,5 @@ It is designed to:
 
 
 
-<img width="1837" height="551" alt="webApp" src="https://github.com/user-attachments/assets/280de9df-11c3-4904-a6b5-83e07395f393" />
+
 
