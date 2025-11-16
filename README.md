@@ -5,7 +5,7 @@
 
   <img src="https://github.com/user-attachments/assets/cf2b61b6-621f-4661-8ee7-22326c9dd67a"
         alt="modsecurity-architecture"
-        width="400">
+        width="300">
 </p>
 
 ## Overview
