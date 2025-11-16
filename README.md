@@ -4,7 +4,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cf2b61b6-621f-4661-8ee7-22326c9dd67a"
        alt="flow-chart"
-       width="300">
+       width="350">
 </div>
 
 ## Overview
