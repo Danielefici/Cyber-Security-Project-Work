@@ -4,7 +4,7 @@ Integration of ModSecurity Logs with Parsing, Database Storage, and MISP
 <p align="center">
 
   <img src="https://github.com/user-attachments/assets/cf2b61b6-621f-4661-8ee7-22326c9dd67a"
-        alt="modsecurity-architecture"
+        alt="Flow-chart"
         width="300">
 </p>
 
