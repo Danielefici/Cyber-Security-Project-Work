@@ -71,5 +71,5 @@ This view provides an intuitive way to understand the relationship between the t
 
 This project integrates with OpenCTI to support advanced threat analysis, investigation workflows, entity correlation, and CTI reporting.
 
-⚠️OpenCTI is not included in this repository.
+⚠️ OpenCTI is not included in this repository.
 To use these integration features, you must have access to an external or self-hosted OpenCTI instance.
