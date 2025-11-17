@@ -2,7 +2,7 @@
 ## Integration of ModSecurity Logs with Parsing, Database Storage, MISP and OpenCTI
 
 <div align="center">
-  <img src="https://https://github.com/user-attachments/assets/35705063-dc50-4bd9-a9db-7d6aaa542dd8"
+  <img src="https://github.com/user-attachments/assets/35705063-dc50-4bd9-a9db-7d6aaa542dd8"
        alt="flow-chart"
        width="350">
 </div>
@@ -70,5 +70,6 @@ This view provides an intuitive way to understand the relationship between the t
 ## External Integrations
 
 This project integrates with OpenCTI to support advanced threat analysis, investigation workflows, entity correlation, and CTI reporting.
-⚠️ OpenCTI is not included in this repository.
+
+⚠️OpenCTI is not included in this repository.
 To use these integration features, you must have access to an external or self-hosted OpenCTI instance.
